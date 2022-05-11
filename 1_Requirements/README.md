@@ -19,6 +19,9 @@ A wiper speed control system for an automobile wiper regulates the operating spe
 * The major disadvantage is that STM32 contains only one button for all the operation
 * User has to undergo a sequence to acquire desired result and can't attain his result directly with the press of the button.
 
+## Opportunities
+* Rain sensing and automatic operation can be implemented as further enhancement.
+
 ## Threats 
 * Replacing the board is not possible if it malfunctions.
 * Can't have more functions as the functionality of the board is very basic.
