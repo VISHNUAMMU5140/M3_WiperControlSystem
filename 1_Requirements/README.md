@@ -33,4 +33,4 @@
 | LR_02 |	Button pressed second time | 1 Hz speed - Blue, Green Orange alternative |	Implemented |
 | LR_03	|Button pressed third time | 4 Hz speed - Blue, Green Orange alternative |	Implemented |
 | LR_04	|Button pressed fourth time | 8 Hz speed - Blue, Green Orange alternative |	Implemented |
-| LR_04 |	Button pressed again for two seconds |Turn Off all LEDs|	Implemented |
+| LR_05 |	Button pressed again for two seconds |Turn Off all LEDs |	Implemented |
