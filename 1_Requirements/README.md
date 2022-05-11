@@ -1,8 +1,13 @@
-# Wiper Control System
-### WORKING PROCESS
+# WIPER CONTROL SYSTEM
+A wiper speed control system for an automobile wiper regulates the operating speed of a wiper in accordance with the amount of rain falling on the windshield. This is a very much essential component in each automobile as it avoids the risk of accidents during rainy conditions.
 
+# WORKING PROCESS
+* The RED LED is considered for the ACC position. Once the push button is pressed for 2 seconds, the RED LED keeps continuously glowing until the stop of the engine signifying the engine condition to be turned ON.
+* On press of the user input push button, the other three Blue, Green and Orange LEDs come ON one at a time with the set frequency. The frequency changes on every alternate key press, 3 frequency levels with 1, 4 and 8 Hz.
+* The LED glow pattern stops on the 4th press; the wiper action starts with the next press.
+* If the push button is pressed for 2 seconds continuously, the RED light goes off and the pattern stops bringing it to default position which signifies the engine is turned OFF.
 
-# SWOT Analysis 
+# SWOT ANALYSIS
 ## Strength
 
 * The wiper comes back to default position even if stooped in the middle
@@ -18,7 +23,26 @@
 * Replacing the board is not possible if it malfunctions.
 * Can't have more functions as the functionality of the board is very basic.
 
-# Requirements
+# 5WS AND 1H
+## WHAT
+It is Wiper Control system which is generally deployed in all the automobiles in order to ensure safety for the passengers and drivers during rainy conditions.
+
+## WHERE
+It is an element which is present in the windshield of the automobile.
+
+## WHO
+It is highly useful for drivers of any kind of automobile who needs clear vision of the road in case of dust or rain.
+
+## WHEN
+It is recommended to operate during dust or rain
+
+## WHY
+To get a clear vision of the road.
+
+## HOW
+It is implemented with the help of STM32 with the desired operation of turning on the engine, changing of speeds and turning off with the help of Embedded c Programming.
+
+# REQUIREMENTS
 ## High level requirements
 | ID | Description | Status |
 | --- | --- | --- | 
